@@ -9,8 +9,10 @@ const lista = [
   },
   {
     data: 'Hola 2',
-  },
+  }
 ]
+const num:number = 2
+
 </script>
 
 <template>
