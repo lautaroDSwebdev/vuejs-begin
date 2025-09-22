@@ -7,7 +7,7 @@
 // import ListsComponent from './components/ListsComponent.vue';
 // import FormulariesVue from './components/FormulariesVue.vue';
 // import LifeCicle from './components/LifeCicle.vue';
-import FatherComponent from "@/components/FatherComponent.vue"
+import FatherComponentComposition from "@/components/FatherComponentComposition.vue"
 </script>
 
 <template>
@@ -17,6 +17,6 @@ import FatherComponent from "@/components/FatherComponent.vue"
    <!-- <ConditionalStyle/> -->
    <!-- <FormulariesVue/> -->
    <!-- <LifeCicle/> -->
-   <FatherComponent/>
+   <FatherComponentComposition/>
   <!-- <RouterView /> -->
 </template>

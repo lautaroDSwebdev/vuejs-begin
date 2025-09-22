@@ -1,15 +1,15 @@
 <template>
   <div class="styled_div">
-    <ChildCponent v-for='data in lista' :key='data.num' :text='data.text' :num='data.num' />
+    <ChildCponentComposition v-for='data in lista' :key='data.num' :text='data.text' :num='data.num' />
   </div>
 </template>
 <script lang="ts" setup>
-import ChildCponent from '@/components/ChildComponent.vue'
+import ChildCponentComposition from '@/components/ChildComponentComposition.vue'
 
 
 interface Data {
   text: string
-  num: Number
+  num: number
 }
 
 const lista: Data[] = [
