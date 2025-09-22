@@ -6,6 +6,7 @@
 <script lang="ts" setup>
 import ChildCponent from '@/components/ChildComponent.vue'
 
+
 interface Data {
   text: string
   num: Number
