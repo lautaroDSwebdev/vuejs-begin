@@ -7,7 +7,7 @@
 // import ListsComponent from './components/ListsComponent.vue';
 // import FormulariesVue from './components/FormulariesVue.vue';
 // import LifeCicle from './components/LifeCicle.vue';
-import FatherComponentComposition from "@/components/FatherComponentComposition.vue"
+import FatherComponentComposition from "@/components/comunicacion-vertical/FatherComponentComposition.vue"
 </script>
 
 <template>
